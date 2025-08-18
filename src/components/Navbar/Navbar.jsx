@@ -1,9 +1,9 @@
 import s from'./Navbar.module.css';
 console.log(s)
-
+//<nav className='Navbar_nav__fU5dC'>
 const Navbar =() => {
     return (
-      <nav className='Navbar_nav__fU5dC'>
+      <nav className={s.nav}> 
         <div className="Navbar_item__yDkau">Profile</div>
         <div className={s.item}>Message</div>
         <div className={`${s.item} ${s.active}`}>News</div>
